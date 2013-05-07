@@ -1,0 +1,32 @@
+{
+    "name": "soflomo/sitemap",
+    "description": "Sitemap module for Zend Framework 2 ",
+    "license": "BSD-3-Clause",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "sitemap",
+        "navigation"
+    ],
+    "homepage": "https://github.com/Soflomo/Sitemap",
+    "authors": [
+        {
+            "name": "Jurian Sluiman",
+            "email": "jurian@soflomo.com",
+            "homepage": "http://soflomo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3.",
+        "zendframework/zend-mvc": ">=2.0,<2.3",
+        "zendframework/zend-navigation": ">=2.0,<2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Soflomo\\Sitemap": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
