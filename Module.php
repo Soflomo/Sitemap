@@ -38,7 +38,7 @@
  * @link        http://soflomo.com
  */
 
-namespace Sitemap;
+namespace Soflomo\Sitemap;
 
 use Zend\ModuleManager\Feature;
 use Zend\Loader;

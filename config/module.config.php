@@ -46,7 +46,7 @@ return array(
                 'options' => array(
                     'route' => '/sitemap',
                     'defaults' => array(
-                        'controller' => 'Sitemap\Controller\SitemapController',
+                        'controller' => 'Soflomo\Sitemap\Controller\SitemapController',
                         'action'     => 'index',
                     ),
                 ),
@@ -67,7 +67,7 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Sitemap\Controller\SitemapController' => 'Sitemap\Controller\SitemapController',
+            'Soflomo\Sitemap\Controller\SitemapController' => 'Soflomo\Sitemap\Controller\SitemapController',
         ),
     ),
     'view_manager' => array(

@@ -38,7 +38,7 @@
  * @link        http://soflomo.com
  */
 
-namespace Sitemap\Controller;
+namespace Soflomo\Sitemap\Controller;
 
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
